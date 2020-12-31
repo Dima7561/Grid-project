@@ -1,0 +1,688 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1440px;
+    margin:0 auto;
+}
+h2{
+    text-align: center;
+     font-size: 38px;
+     font-family: "Montserrat";
+     color: rgba(0, 0, 0, 0.902);
+     font-weight: bold;
+     text-transform: uppercase;
+     line-height: 0.737;
+}
+      
+         /*Heager*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239, 240, 242);
+    opacity: 0.988;
+    height: 803px;     
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+    margin-right: 153px;
+    margin-left: 150px;
+}
+.navigation > div> .hamburger1 {
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    border-radius: 2px;
+    opacity: 0.6;
+    margin: 6px 0;
+}
+.Заголовок > h1{
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 45px;
+    font-family: "Montserrat";
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-shadow: 0px 9px 10px rgba(0, 0, 0, 0.24);
+    padding-top: 200px;
+}
+ h1 > div > span{
+    background-color: rgb(175, 255, 248);
+    padding: 0px 7px;
+ }
+ header > div > p{
+    margin-left: 601px;
+    margin-top: 130px;   
+    text-align: center;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.749);
+    text-transform: uppercase;
+    line-height: 1.556;
+    opacity: 0.9;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    padding: 4px;
+    width: 231px;
+ }
+ header > div > p > a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.749);
+ }
+ .Заголовок > img{
+    margin-left: 1123px;
+    margin-top: -20px;
+ }
+
+         /*main*/
+        /*article1*/
+
+.main-article1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-column-gap: 90px;
+    background-color: rgb(248, 250, 250);
+    height: 985px;
+}
+.article1-blok1{
+    grid-column: 1/span 2;
+    justify-self: center;
+    align-self: center;
+}       
+.article1-blok1 > p{
+    font-size: 18px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.62);
+    text-transform: uppercase;
+    line-height: 1.556;
+    text-align: center;
+}
+.article1-blok2{
+    display: grid;
+    justify-self: self-end;
+}
+.article1-blok2 > span {
+    margin-left: 200px;
+    margin-top: -50px;
+}
+.article1-blok2 > span > a{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: rgb(208, 208, 208);
+}
+.article1-blok2 > span > a:hover{
+    background-color: rgb(109, 236, 226);
+}
+.article1-blok3{
+    display: grid;
+    justify-self: self-start;
+    align-self: flex-start;
+}
+.article1-blok3 > h3{
+    font-size: 20px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.749);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+.article1-blok3 > p{
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(0, 0, 0, 0.741);
+    line-height: 1.75; 
+    letter-spacing: 1.1px;
+}   
+
+        /*article2*/
+
+.main-article2{
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 269px 359px 359px;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    height: 1165px;
+    margin: 0 150px;  
+}
+.article2-blok1{
+    grid-column: 1/span 3;
+    justify-self: center;
+    align-self: center;
+}       
+.article2-blok1 > p{
+    font-size: 17px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.62);
+    text-transform: uppercase;
+    line-height: 1.647;
+    text-align: center;
+}
+
+        /*article3*/
+
+.main-article3{
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-rows: 306px 422px 370px 370px;
+    background-color: rgb(249, 251, 251);
+    height: 1618px;
+    grid-column-gap: 7px;
+    grid-row-gap: 7px;
+    margin: 0 150px;  
+}
+.article3-blok1{
+    grid-column: 1/span 3;
+    justify-self: center;
+    align-self: center;
+}
+.article3-blok1 > p{
+    font-size: 17px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.62);
+    text-transform: uppercase;
+    line-height: 1.647;
+    text-align: center;
+}
+.article3-blok2{
+    grid-column: 1/span 2;
+    background-color: rgb(109, 246, 235);
+    opacity: 0.969;
+    padding-top: 65px;
+    padding-left: 64px;
+}
+.article3-blok2 > h3 > .blok2-h3{
+    font-size: 20px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.831);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.45;
+    text-align: left;
+}
+.article3-blok2 > p > .blok2-p{
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(0, 0, 0, 0.749);
+    line-height: 1.75;
+    text-align: left;
+}
+.article3-blok2 > .крестик{
+    display: inline-block;
+}
+.article3-blok2 > .крестик > a > .крестик1 {
+    content:"";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid #000;
+    opacity: 0.302;
+    margin-left: 5px;
+    margin-top: 20px;
+    transform: rotate(-45deg);
+    margin-left: -8px;
+    margin-top: 70px;
+}
+.article3-blok2 > .крестик > a > .крестик2 {
+    content:"";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid #000;
+    opacity: 0.302;
+    transform: rotate(135deg); 
+}
+.article3-blok2 > .крестик > a{
+    text-decoration: none;
+}
+.article3-blok3{
+    background: url(../img/banner7.png);
+    padding-top: 186px;
+    padding-left: 64px;
+}
+.article3-blok3 > a > .стрелка-ссылка{
+    display: inline-block;
+}
+.article3-blok3 > a > .стрелка-ссылка > .стрелка-ссылка1 {
+    content:"";
+    display: inline-block;
+    opacity: 0.7;
+    width: 20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
+.article3-blok3 > a > .стрелка-ссылка > .стрелка-ссылка2 {
+    content:"";
+    display: inline-block;
+    opacity: 0.7;
+    width: 9px;
+    height: 9px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    transform: rotate(-45deg); 
+    margin-left: -9px;
+    margin-bottom: 3.5px;
+}
+.article3-blok4{
+    grid-column: 1/span 2;
+    background: url(../img/banner8.png);
+    padding-top: 166px;
+    padding-left: 64px;
+}
+.article3-blok4 > a > .стрелка-ссылка{
+    display: inline-block;
+}
+.article3-blok4 > a > .стрелка-ссылка > .стрелка-ссылка1 {
+    content:"";
+    display: inline-block;
+    opacity: 0.7;
+    width: 20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
+.article3-blok4 > a > .стрелка-ссылка > .стрелка-ссылка2 {
+    content:"";
+    display: inline-block;
+    opacity: 0.7;
+    width: 9px;
+    height: 9px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    transform: rotate(-45deg); 
+    margin-left: -9px;
+    margin-bottom: 3.5px;
+}
+.article3-blok5{
+    background: url(../img/banner9.png);
+    padding-top: 166px;
+    padding-left: 64px;
+}
+.article3-blok5 > a > .стрелка-ссылка{
+    display: inline-block;
+}
+.article3-blok5 > a > .стрелка-ссылка > .стрелка-ссылка1 {
+    content:"";
+    display: inline-block;
+    opacity: 0.7;
+    width: 20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
+.article3-blok5 > a > .стрелка-ссылка > .стрелка-ссылка2 {
+    content:"";
+    display: inline-block;
+    opacity: 0.7;
+    width: 9px;
+    height: 9px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    transform: rotate(-45deg); 
+    margin-left: -9px;
+    margin-bottom: 3.5px;
+}
+.article3-blok6{
+    grid-column:1/span 1;
+    background: url(../img/banner10.png);
+    padding-top: 130px;
+    padding-left: 64px;
+}
+.article3-blok6 > a > .стрелка-ссылка{
+    display: inline-block;
+}
+.article3-blok6 > a > .стрелка-ссылка > .стрелка-ссылка1 {
+    content:"";
+    display: inline-block;
+    opacity: 0.7;
+    width: 20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
+.article3-blok6 > a > .стрелка-ссылка > .стрелка-ссылка2 {
+    content:"";
+    display: inline-block;
+    opacity: 0.7;
+    width: 9px;
+    height: 9px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    transform: rotate(-45deg); 
+    margin-left: -9px;
+    margin-bottom: 3.5px;
+}
+.article3-blok7{
+    grid-column:2/span 3;
+    background: url(../img/banner11.png);
+    padding-top: 130px;
+    padding-left: 64px;
+    margin-right: 7px;
+}
+.article3-blok7 > a > .стрелка-ссылка{
+    display: inline-block;
+}
+.article3-blok7 > a > .стрелка-ссылка > .стрелка-ссылка1 {
+    content:"";
+    display: inline-block;
+    opacity: 0.7;
+    width: 20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
+.article3-blok7 > a > .стрелка-ссылка > .стрелка-ссылка2 {
+    content:"";
+    display: inline-block;
+    opacity: 0.7;
+    width: 9px;
+    height: 9px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    transform: rotate(-45deg); 
+    margin-left: -9px;
+    margin-bottom: 3.5px;
+}
+.main-article3 > div> h3{
+    font-size: 20px;
+    font-family: "Merriweather";
+    color: rgba(255, 255, 255, 0.949);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.45;
+    text-align: left;
+}
+.article3-blok3, .article3-blok4,
+.article3-blok5, .article3-blok6,
+.article3-blok7 > p{
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.91);
+    line-height: 1.563;
+    text-align: left;
+}
+
+.main-article3 > div > a{
+    font-size: 19px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.769);
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;   
+}
+
+        /*article4*/
+
+.main-article4{
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 300px 440px 440px;
+    grid-column-gap: 7px;
+    grid-row-gap: 7px;
+    height: 1314px;
+    margin: 0 150px;  
+}       
+.article4-blok1{
+    grid-column: 1/span 3;
+    justify-self: center;
+    align-self: center;
+}
+.article4-blok1 > p{
+    font-size: 17px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.62);
+    text-transform: uppercase;
+    line-height: 1.647;
+    text-align: center;
+}
+.article4-blok3{
+    background-image: url(../img/portret2.png);
+    padding-top: 225px;
+    padding-left: 55px;
+}
+.article4-blok3 > h3{
+    font-size: 20px;
+    font-family: "Merriweather";
+    color: rgba(39, 39, 39, 0.949);
+    font-weight: bold;
+    line-height: 1.2;
+}
+.article4-blok3 > h3 > span{
+    font-size: 16px;
+    font-family: "Merriweather";
+    color: rgba(136, 124, 124, 0.949);
+    font-style: italic;
+}
+.article4-blok3 > p{
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.5;
+    text-align: left;
+}
+.article4-blok3 > a{
+    padding-left: 8px;
+}
+
+        /*article5*/
+
+.main-article5{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    grid-column-gap: 80px;
+    background-color: rgb(249, 251, 251);
+    height: 923px;
+    margin: 0 150px;
+}
+.article5-blok1{
+    grid-column: 1/span 2;
+    justify-self: center;
+    align-self: center;
+}       
+.article5-blok1 > p{
+    font-size: 17px;
+    font-family: "Merriweather";
+    color: rgba(0, 0, 0, 0.62);
+    text-transform: uppercase;
+    line-height: 1.647;
+    text-align: center;
+}
+.article5-blok2{
+    margin-top: -25px;
+}
+.article5-blok3 {
+    border-radius: 3px;
+    background-color: rgb(234, 235, 237);
+    width: 653px;
+    height: 362px;
+    text-align: center;
+    padding-top: 100px;
+}         
+.article5-blok3 > h3 > span{
+    font-size: 14px;
+    font-family: "Merriweather";
+    color: rgba(136, 124, 124, 0.949);
+    font-style: italic;
+}
+.article5-blok3 > p{
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.688;
+}
+.article5-blok2 > span {
+    margin-left: 180px;
+}
+.article5-blok2 > span > a{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: rgb(208, 208, 208);
+}
+.article5-blok2 > span > a:hover{
+    background-color: rgb(109, 236, 226);
+}
+.article5-blok3 > .arrow2{
+    display: inline-block;
+    padding-top: 100px;
+    padding-left: 540px;
+}
+.article5-blok3 > .arrow2 > a > .arrow2-left:after{
+    content:"";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 4px solid black;
+    border-right: 4px solid #000;
+    opacity: 0.302;
+    margin-left: 5px;
+    margin-top: 20px;
+    transform: rotate(135deg);
+}
+.article5-blok3 > .arrow2 > a > .arrow2-right:after{
+    content:"";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-bottom: 4px solid black;
+    border-right: 4px solid #000;
+    opacity: 0.302;
+    margin-left: -5px;
+    margin-top: 20px;
+    transform: rotate(-45deg);
+}
+.article5-blok3 > .arrow2 > a{
+    display: inline-block;
+    width: 53px;
+    height: 53px;
+    background-color:white; 
+    border-radius: 3px;
+}
+.article5-blok3 > .arrow2 > a:hover{
+    background-color: rgb(113, 246, 235);
+}
+
+        /*article6*/
+
+.main-article6{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 385px;
+}
+
+        /*footer*/
+
+footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 311px;
+    grid-column-gap: 13px;
+    background-image: url(../img/footer-fon.png);  
+    height: 1016px;
+}
+.footer-blok1{
+    background-color: rgb(2, 22, 35);
+    opacity: 0.71;
+    width: 614px;
+    height: 460px;
+    padding-top: 47px;
+    padding-left: 35px;
+    align-self: center;
+    justify-self: flex-end;
+}
+.footer-blok1 > p{
+    font-size: 15px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 2.4;
+}
+.footer-blok1 > input, textarea{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    width: 456px;
+    background-color: rgb(2, 22, 35);
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 75px;
+    font-size: 15px;
+}
+.footer-blok1 > button{
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.702);
+    text-transform: uppercase;
+    line-height: 1.556;
+    border-radius: 2px;
+    background-color: rgb(110, 238, 228);
+    width: 244px;
+    height: 53px;
+    margin-top: 30px;
+}
+.footer-blok2{
+    background-color: rgb(2, 22, 35);
+    opacity: 0.71;
+    box-shadow: 0px 0px 3px 0px rgba(21, 21, 21, 0.16);
+    width: 500px;
+    height: 461px;
+    align-self: center;
+    justify-self: flex-start;
+    margin-right: 150px;
+    padding-top: 28px;
+    padding-left: 25px;
+}
+.footer-blok2 > p{
+    font-size: 15px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.702);
+    line-height: 1.6;
+}
+.footer-blok3{
+    grid-column: 1/span 2;
+    place-self: center;
+    margin-left: 150px;
+}
+.footer-blok3 > p > .FOLLOW-US{
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.563;   
+    margin-left: 38px; 
+}
+.footer-blok3 > .soc-icon > a {
+    display: inline-block;
+    background-color: rgb(141, 141, 141);
+    opacity: 0.341;
+    width: 40px;
+    height: 46px;
+}
+.footer-blok3 > .soc-icon > a:hover{
+    background-color: rgb(18, 235, 217);
+}
+.footer-blok3 > .soc-icon > a > img{
+    padding: 10px 10px;
+}
+.footer-blok3 > p > .Copyright{
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(255, 255, 255, 0.4);
+    line-height: 1.563;
+    margin-left: -70px;
+}
+
